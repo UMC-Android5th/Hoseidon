@@ -71,7 +71,7 @@ class SongActivity : AppCompatActivity(){
 
                 }
                 if(isPlaying){
-                    sleep(50)
+                    sleep(50)// 아무거나
                     mills +=50
 
                     runOnUiThread{
