@@ -8,7 +8,7 @@ class BannerVPAdapter(fragment: Fragment): FragmentStateAdapter(fragment) {
     private val fragmentlist : ArrayList<Fragment> = ArrayList()
     override fun getItemCount(): Int = fragmentlist.size
 
-    override fun createFragment(position: Int): Fragment = BannerFragment(R.drawable.kakako_44)
+    override fun createFragment(position: Int): Fragment = BannerFragment(R.drawable.discovery_banner_aos)
 
     fun addFragment(fragment: Fragment){
         fragmentlist.add(fragment)
